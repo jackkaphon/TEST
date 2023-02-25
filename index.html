@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    body {
+        background-image: url('background.avif');
+    }
+
+    .logo {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    .navMenu {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 25px;
+    }
+
+    .search {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .searchInput {
+        width: 50%;
+        height: 30%;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+
+    content {
+        display: flex;
+        width: 80%;
+        margin: auto;
+    }
+    button {
+        width: 30%;
+        height: 10%;
+        border: none;
+        background-color: blueviolet;
+        color: aliceblue;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .icon {
+        margin-top: 20px;
+    }
+</style>
+<script>
+    console.log("hello wsadsad")
+</script>
+
+<body>
+    <nav>
+        <div class="logo">
+            <h1>Logo</h1>
+        </div>
+
+        <div class="navMenu">
+            <p>Home</p>
+            <p>Gallery</p>
+            <p>Menu</p>
+            <p>About</p>
+            <p>Contact</p>
+        </div>
+
+        <div class="search">
+            <input class="searchInput">
+        </div>
+    </nav>
+    <content>
+        <div>
+            <h1 style="font-size: 80px;">Delicious Menu</h1>
+            <p style="font-size: 18px;">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+            <button >Read more</button>
+            <div class="icon">
+                <i class="fa fa-facebook-f" style="font-size:36px"></i>
+                <i class="fa fa-instagram" style="font-size:36px; margin-left: 10px;"></i>
+                <i class="fa fa-twitter" style="font-size:36px; margin-left: 10px;"></i>
+            </div>
+        </div>
+        <div>
+            <img src="meal.png">
+        </div>
+
+    </content>
+</body>
+
+</html>
